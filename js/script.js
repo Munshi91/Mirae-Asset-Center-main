@@ -8,3 +8,12 @@ $(document).ready(function () {
     dots: true,
   });
 });
+
+// JavaScript to toggle accordion content
+const accordionItems = document.querySelectorAll('.accordion-item');
+
+accordionItems.forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('active');
+  });
+});
