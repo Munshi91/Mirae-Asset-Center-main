@@ -30,7 +30,9 @@
 .body-font {
   font-family: 'DM Sans', sans-serif;
 }
-
+/* -----------------------
+    Template Default CSS
+ ------------------------- */
 body {
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
@@ -49,11 +51,11 @@ ul {
   list-style: none;
 }
 
-button {
+/* button {
   border: none;
   background-color: transparent;
   padding: 0;
-}
+} */
 
 input:focus {
   color: var(--white);
@@ -197,6 +199,10 @@ p {
   justify-content: space-between;
   align-items: center;
 }
+
+/* -----------------------
+    Template Default CSS
+ ------------------------- */
 
 /* Header */
 header {
@@ -353,12 +359,42 @@ header {
 }
 /* Footer */
 footer {
-  background: #333;
+  background: var(--theme);
   color: var(--white);
-  padding: 10px 0;
-  text-align: center;
+  padding: 100px 0px 50px;
 }
-
+footer div h3 {
+  color: var(--bg3);
+  padding-bottom: 50px;
+}
+footer div p {
+  padding-bottom: 10px;
+}
+footer .copyright {
+  padding-top: 100px;
+}
+#family-site {
+  padding: 10px 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  background-color: transparent;
+  color: var(--bg3);
+  outline: 1 solid #fff;
+  margin-left: 10px;
+}
+#button {
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  outline: 1 solid #fff;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-left: 20px;
+}
 /* Use a media query to add a breakpoint at 600px: */
 @media screen and (max-width: 600px) {
   .topnav a:not(:last-child) {
@@ -445,6 +481,27 @@ footer {
     font-size: 15px;
     padding-top: 10px;
     padding-bottom: 30px;
+  }
+  /* Footer */
+  footer {
+    background: var(--theme);
+    color: var(--white);
+    padding: 50px 0px 50px;
+  }
+  #footer-flex {
+    flex-wrap: wrap;
+  }
+  footer div h3 {
+    color: var(--bg3);
+    padding-bottom: 30px;
+    font-size: 22px;
+  }
+  footer div p {
+    padding-bottom: 10px;
+  }
+  footer .copyright {
+    padding-top: 100px;
+    padding-bottom: 15px;
   }
 }
 /* Use a media query Responsive menu bar to add a breakpoint at 600px: */
