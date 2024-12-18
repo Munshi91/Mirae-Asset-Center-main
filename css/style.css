@@ -240,7 +240,7 @@ header {
 .banner {
   width: 100%;
   height: 100vh;
-  background: url('../images/Background.png') no-repeat;
+  background: url('../images/Background.webp') no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -395,7 +395,7 @@ header {
 .upper-footer {
   width: 100%;
   height: 100vh;
-  background: url('../images/Upper-footer.jpg') no-repeat;
+  background: url('../images/Upper-footer.webp') no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
