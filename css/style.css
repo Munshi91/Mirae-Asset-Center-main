@@ -282,7 +282,12 @@ header {
   font-size: 20px;
   padding-top: 20px;
 }
-
+.card-1 {
+  margin-top: 60px;
+}
+.card-2 {
+  margin-top: 30px;
+}
 /* Hero Section */
 #hero .owl-carousel .single-banner-slide {
   width: 100vw;
@@ -521,7 +526,7 @@ footer .copyright {
     font-size: 30px !important;
     line-height: 30px;
     font-weight: 700;
-    padding-top: 20px;
+    padding-top: 20px !important;
   }
   .single-banner-slide h2 sup {
     font-size: 20px;
@@ -530,7 +535,8 @@ footer .copyright {
     color: #fff;
     font-size: 12px !important;
     max-width: 100% !important;
-    padding-top: 20px;
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
   }
   .single-banner-slide div a {
     color: var(--body);
